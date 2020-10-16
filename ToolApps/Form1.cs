@@ -42,7 +42,7 @@ namespace ToolApps
         {
             InitializeComponent();
             setDevices();
-            Thread.Sleep(TimeSpan.FromSeconds(50));
+            Thread.Sleep(TimeSpan.FromSeconds(500));
         }
         void Auto()
         {
