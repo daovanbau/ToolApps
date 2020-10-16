@@ -37,12 +37,12 @@ namespace ToolApps
 
         const int WM_SYSCOMMAND = 274;
         const int SC_MAXIMIZE = 1000;
-        int DeviceCount = 2;
+        int DeviceCount = 3;
         public Form1()
         {
             InitializeComponent();
             setDevices();
-            Thread.Sleep(TimeSpan.FromSeconds(5));
+            Thread.Sleep(TimeSpan.FromSeconds(50));
         }
         void Auto()
         {
@@ -77,7 +77,7 @@ namespace ToolApps
                     }
                     else
                     {
-                        x = i * 100;
+                        x = i * 300;
                         y = i * 0;
                     }
                     Thread.Sleep(100);
